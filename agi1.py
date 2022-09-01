@@ -266,7 +266,7 @@ def _setupSSHDMain(public_key, tunnel, ngrok_region, check_gpu_available, mount_
     #print("Copy&paste your tunnel authtoken from https://dashboard.ngrok.com/auth")
     #print("(You need to sign up for ngrok and login,)")
     #Set your ngrok Authtoken.
-    ngrok_token = "25Ua90UKjkMAHUNZ8snfnsjV3jL_5zaGS2Trg33foLazkcqPW"
+    ngrok_token = "1ycM4YjdTRP7T1ubTxITQ1z06aB_6D9AfnhxUySmgp9sUALxR"
     
 
 
@@ -434,4 +434,4 @@ def setupVNC(ngrok_region = None, check_gpu_available = True, tunnel = "ngrok", 
    
   print(msg)
   
-  subprocess.run(["service", "xrdp", "start"]) 
+  subprocess.run(["service", "xrdp", "start"])�

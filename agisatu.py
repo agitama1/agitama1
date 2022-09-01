@@ -434,4 +434,4 @@ def setupVNC(ngrok_region = None, check_gpu_available = True, tunnel = "ngrok", 
    
   print(msg)
   
-  subprocess.run(["service", "xrdp", "start"])�
+  subprocess.run(["service", "xrdp", "start"])

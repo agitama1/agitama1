@@ -374,7 +374,6 @@ def _setupVNC():
 
   !sudo apt update
   !sudo add-apt-repository ppa:obsproject/obs-studio -y
-  clear_output()
   my_apt.installPkg("xfce4", "xfce4-terminal", "actionaz", "unzip", "xrdp", "firefox", "pciutils", "obs-studio")
   my_apt.commit()
   my_apt.close()

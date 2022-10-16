@@ -372,8 +372,7 @@ def _setupVNC():
   my_apt.installDebPackage("turbovnc.deb")
   my_apt.installDebPackage("chrome.deb")
 
-  !sudo apt update
-  !sudo add-apt-repository ppa:obsproject/obs-studio -y
+
   my_apt.installPkg("xfce4", "xfce4-terminal", "actionaz", "unzip", "xrdp", "firefox", "pciutils", "obs-studio")
   my_apt.commit()
   my_apt.close()
